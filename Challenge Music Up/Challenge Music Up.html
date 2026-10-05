@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App di music streaming</title>
+
+</head>
+
+<body style="
+    font-family: 'Poppins', sans-serif;
+    background-image: url('img app.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin: 0; ">
+
+    <div style="
+        color: #5A243D;
+        text-align: center;
+        padding-top: 3%; ">
+
+        <h1 style="font-size: 42px; margin-bottom: 10px;">
+            Music App Sign Up
+        </h1>
+
+        <h2 style="
+            font-weight: 300;
+            margin-top: 0; ">
+            Registrati per iniziare ad ascoltare la tua musica preferita
+        </h2>
+
+    </div>
+
+
+    <form onsubmit="alert('Registrazione inviata!')">
+    
+
+        <div style="
+            background-color: white;    
+            margin: 30px auto;
+            padding: 30px;               
+            border-radius: 20px;
+            width: 500px;
+            box-sizing: border-box; ">
+
+
+            <div style="margin-bottom: 20px;">
+                <h5 style="margin-bottom: 8px;">Nome</h5> 
+
+                <input
+                    type="text"
+                    placeholder="Il tuo nome"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;">
+       
+            </div>
+
+
+            <div style="margin-bottom: 20px;">
+  
+                <h5 style="margin-bottom: 8px;">Cognome</h5>
+
+                <input
+                    type="text"
+                    placeholder="Il tuo cognome"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;">
+            </div>
+
+
+            <div style="margin-bottom: 20px;">
+              
+
+                <h5 style="margin-bottom: 8px;">Indirizzo email</h5>
+
+                <input
+                    type="email"
+                    placeholder="esempio@email.it"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;">
+            </div>
+
+
+            <div style="margin-bottom: 20px;">
+
+                <h5 style="margin-bottom: 8px;">Password</h5>
+
+                <input
+                    type="password"
+                    placeholder="Crea una password"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;
+                    ">
+            </div>
+
+
+            <div style="margin-bottom: 20px;">
+              
+
+                <h5 style="margin-bottom: 8px;">Data di nascita</h5>
+          
+
+                <input
+                    type="date"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;
+                    ">
+            </div>
+
+
+            <div style="margin-bottom: 20px;">
+         
+
+                <h5 style="margin-bottom: 8px;">Numero di telefono</h5>
+
+                <input
+                    type="number"
+                    placeholder="Inserisci il tuo numero"
+                    style="
+                        width: 100%;
+                        padding: 12px;
+                        border-radius: 8px;
+                        border: 1px solid #cccccc;
+                        box-sizing: border-box;">
+            </div>
+
+
+            <div style="margin-bottom: 25px;">
+                <!-- 🔴 AGGIUNTO -->
+
+                <h5 style="margin-bottom: 12px;">Gusti musicali</h5>
+                <!-- 🔴 MODIFICATO -->
+
+                <label style="margin-right: 25px;">
+                    <input type="checkbox"> Pop
+                </label>
+
+                <label style="margin-right: 25px;">
+                    <input type="checkbox"> Rock
+                </label>
+
+                <label style="margin-right: 25px;">
+                    <input type="checkbox"> Rap
+                </label>
+
+                <label>
+                    <input type="checkbox"> Jazz
+                </label>
+
+                <!-- 🔴 MODIFICATO: label + spaziatura -->
+            </div>
+
+
+            <div style="margin-bottom: 25px;">
+                <!-- 🔴 AGGIUNTO -->
+
+                <h5 style="margin-bottom: 10px;">
+                    Accetto i termini e le condizioni
+                </h5>
+
+                <label>
+                    <input type="radio" name="termini"> Sì
+                </label>
+
+                <!-- 🔴 MODIFICATO: checkbox → radio -->
+            </div>
+
+
+            <div>
+                <button
+                    type="submit"
+                    style="
+                        width: 100%;
+                        background-color: #C64F78;
+                        color: white;
+                        border: none;
+                        border-radius: 10px;
+                        padding: 15px;
+                        font-size: 18px;
+                        font-weight: 600;
+                    ">
+                    INVIA REGISTRAZIONE
+                </button>
+
+                <!-- 🔴 MODIFICATO completamente lo stile del bottone -->
+            </div>
+
+
+        </div>
+        <!-- 🔴 AGGIUNTO: QUESTO CHIUDE IL DIV GRANDE -->
+
+    </form>
+
+</body>
+</html>
