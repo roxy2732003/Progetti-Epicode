@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo  {
+ width: 200px;
+height: auto;
+margin-top: 10px;
+margin-bottom: 20px;}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    padding: 5px;
+    background-color:#fdfbf1 ;
+    border-top: 1px solid #ffd877;
+    text-align: center;
+}
+
+.banner p{ font-family: Georgia, "Times New Roman", serif;
+color:#004d4c ;}
+
+
+.recipe{
+margin-top: 60px;
+}
+
+
+.recipe-intro {
+max-width: 600px;
+text-align: center;
+margin: 0 auto;
+}
+
+.recipe-intro p {
+    margin-top: 20px;
+}
+
+.image-focaccia {
+    max-width: 750px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+.image-focaccia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.image-focaccia figcaption {
+    display:flex;
+    justify-content: center;
+    color:#999999 ;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.featured-link {
+    margin: 100px 390px 50px;
+    border-left: 3px solid #ffd877; 
+}
+
+.featured-link h3 {
+    margin-left: 15px;
+    margin-bottom: 4px;
+    color: #b5460f;
+}
+
+.featured-link a {
+     margin-left: 15px;
+     color:#529495
+}
+
+.section-ingredients {
+    margin: 50px 390px  50px;
+}
+
+.section-ingredients hr{
+     border-top: 1px solid #529495 ;
+}
+
+.section-ingredients h2 { 
+    font-weight: 300;
+
+}
+
+.ingredients,
+.method {
+    max-width: 750px;
+    margin: 60px auto 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.ingredients h2,
+.method h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.ingredients hr,
+.method hr {
+    border: none;
+    height: 1px;
+    background-color: #bfe7e7;
+    margin-bottom: 35px;
+}
+
+.ingredients h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.ingredients ul {
+    padding-left: 35px;
+}
+
+.ingredients li {
+    margin-bottom: 15px;
+}
+
+.method ol {
+    padding-left: 35px;
+}
+
+.method li {
+    padding-left: 5px;
+}
+
+.method li p {
+    margin-top: 18px;
+    line-height: 1.25;
+}
+
+.read-more {
+    margin-top: 20px;
+}
+
+.read-more a {
+    color: #006d6d;
+}
